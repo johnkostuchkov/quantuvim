@@ -140,6 +140,7 @@ header, .block {
             font-size: 20px;
             font-weight: 400;
             margin-bottom: 40px;
+            width: 663px;
         }
     }
 }
@@ -159,18 +160,12 @@ header, .block {
             font-weight: 400;
             text-align: right;
             margin-bottom: 40px;
+            width: 663px;
         }
     }
 }
 #objects {
     margin-bottom: 100px;
-    h2 {
-        font-weight: 500;
-        font-size: 32px;
-        margin-bottom: 80px;
-    }
-}
-#finish {
     h2 {
         font-weight: 500;
         font-size: 32px;
