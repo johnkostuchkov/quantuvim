@@ -29,7 +29,7 @@ li {
     width: 1600px;
 }
 .logo {
-    padding: 15px 0px 15px 60px;
+    padding: 15px 0px 15px 0px;
 }
 .navbar ul {
     display: flex;
@@ -41,8 +41,16 @@ li {
         color: #fff;
     }
 }
+.button {
+    font-size: 24px;
+    font-weight: 400;
+    padding: 12px 69px;
+    background: linear-gradient(-80deg, #DB194D, #A12AA0);
+    border-radius: 26px;
+    color: #fff;
+}
 .header-bottom {
-    background-image: url(/img/фон-тёмный.png);
+    background-image: url(../img/фон-тёмный.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 950px;
@@ -68,6 +76,7 @@ li {
         h3 {
             font-size: 24px;
             font-weight: 400;
+            margin-bottom: 52px;
         }
     }
 }
